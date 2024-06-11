@@ -1,0 +1,56 @@
+[
+    {
+      "title": "Teaching Methodology",
+      "points": [
+        "Concept & application based learning",
+        "Interactive & engaging lectures",
+        "Integrated approach focusing on competitive & school exams"
+      ],
+      "icon": "📘"
+    },
+    {
+      "title": "Study Material",
+      "points": [
+        "Well-researched & analysed",
+        "Comprehensive & meticulously designed",
+        "Based on latest syllabus & exam pattern"
+      ],
+      "icon": "📚"
+    },
+    {
+      "title": "Regular Tests & Assessments",
+      "points": [
+        "Detailed test analysis with error analysis report",
+        "Simulated tests based on latest exam pattern",
+        "Compete at national level with All India Aakash Test Series"
+      ],
+      "icon": "📝"
+    },
+    {
+      "title": "Doubt Clearing System",
+      "points": [
+        "One-to-one interactive session with subject experts",
+        "Detailed & simplified solutions",
+        "Video solutions for instant doubt resolution"
+      ],
+      "icon": "❓"
+    },
+    {
+      "title": "Feedback System",
+      "points": [
+        "Timely updates on performance & attendance",
+        "Query/ grievance redressal"
+      ],
+      "icon": "💬"
+    },
+    {
+      "title": "Omni-channel Learning",
+      "points": [
+        "100% digitised classrooms across all branches or centres",
+        "Hybrid classrooms offering the best of classroom & online learning",
+        "Digital Product (Recorded Video Lectures, e-Content, e-Test Papers/Series)"
+      ],
+      "icon": "🌐"
+    }
+  ]
+  
