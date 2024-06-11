@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { BsGithub, BsTwitter } from 'react-icons/bs';
-import imge1 from './image/Screenshot 2024-06-03 121304.png';
+import imge1 from './image/logo.png';
 
 const socialLinks = [
   { href: '#', srText: 'Facebook', icon: <FaFacebook /> },

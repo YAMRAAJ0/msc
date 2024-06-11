@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Img1 from './image/Screenshot 2024-06-03 121304.png'
+import Img1 from './image/logo.png'
 const Navbar = () => {
   const [scrollPercentage, setScrollPercentage] = useState(0);
 

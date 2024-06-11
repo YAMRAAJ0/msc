@@ -5,6 +5,7 @@ import image1 from './image/Screenshot 2024-06-03 120606.png';
 import image2 from './image/Screenshot 2024-06-03 120404.png';
 import image3 from './image/Screenshot 2024-06-03 120650.png';
 import image4 from './image/Screenshot 2024-06-03 120755.png';
+import image5 from './image/Screenshot 2024-06-11 131416.png'
 const rankersData = [
   { id: 1, rank: 15, name: "Murikinati Sai Divya Teja Reddy", regNo: "00006840499", imageUrl: "/path/to/image1.jpg" },
   { id: 2, rank: 19, name: "Rishi Shekher Shukla", regNo: "00005711409", imageUrl: "/path/to/image2.jpg" },
@@ -132,7 +133,8 @@ function Results() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {rankersData.slice(0, 3).map(ranker => (
           <div key={ranker.id} className="bg-blue-500 text-white p-4 rounded-lg shadow-lg">
-            <img src={ranker.imageUrl} alt={ranker.name} className="w-24 h-24 rounded-full mx-auto mb-2" />
+            {/* <img src={ranker.imageUrl} alt={ranker.name} className="w-24 h-24 rounded-full mx-auto mb-2" /> */}
+            <img src={image5} alt={ranker.name} className="w-24 h-24 rounded-full mx-auto mb-2" />
             <h3 className="text-center text-2xl">{ranker.rank}<sup>th</sup></h3>
             <p className="text-center font-semibold">{ranker.name}</p>
             <p className="text-center">Classroom</p>
@@ -143,7 +145,8 @@ function Results() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-6">
         {rankersData.slice(3).map(ranker => (
           <div key={ranker.id} className="bg-white text-gray-800 p-4 rounded-lg shadow-lg">
-            <img src={ranker.imageUrl} alt={ranker.name} className="w-16 h-16 rounded-full mx-auto mb-2" />
+            {/* <img src={ranker.imageUrl} alt={ranker.name} className="w-16 h-16 rounded-full mx-auto mb-2" /> */}
+            <img src={image5} alt={ranker.name} className="w-16 h-16 rounded-full mx-auto mb-2" />
             <h3 className="text-center text-xl">{ranker.rank}<sup>th</sup></h3>
             <p className="text-center font-semibold">{ranker.name}</p>
             <p className="text-center">Classroom</p>

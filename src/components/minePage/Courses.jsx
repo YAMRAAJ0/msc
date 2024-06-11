@@ -26,7 +26,7 @@ function Courses(){
         <>
        <div className="App flex flex-col md:flex-row justify-center items-start mt-16 bg-gray-100 p-4">
       <FilterSidebar  />
-      {/* <CourseDetails coursesData={coursesData} /> */}
+      <CourseDetails coursesData={coursesData} />
     </div>
         </>
     )
