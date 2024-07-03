@@ -59,14 +59,15 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex space-x">
           {links.map((link, index) => (
-            <Link
-              key={index}
-              to={link.href}
-              className="relative nav-link flex text-gray-800 hover:text-blue-500 cursor-pointer transition-colors duration-300"
-            >
-              {link.text}
-              <span className="absolute left-0 bottom-0 w-full h-1 bg-blue-500 transform scale-x-0 transition-transform duration-300 origin-bottom-right hover:scale-x-100 hover:origin-bottom-left"></span>
-            </Link>
+                       <Link
+                       key={index}
+                       to={link.href}
+                     class="relative inline-flex items-center justify-center leading-normal no-underline pb-1 text-black font-sans font-bold text-sm uppercase hover:text-blue-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-neutral-500 transition group"
+                   >  {link.text}
+             <span
+    class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-900 origin-bottom-right transform transition duration-200 ease-out scale-x-0 group-hover:scale-x-100 group-hover:origin-bottom-left"
+  ></span>
+</Link>
           ))}
         </div>
       </div>
