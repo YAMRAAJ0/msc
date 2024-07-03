@@ -16,7 +16,7 @@ import Results from '../data/Results.json';
 
 const stats = [
   { img: image1, count: "300+", label: "Coaching Centers in India" },
-  { img: image3, count: "122,000+", label: "Aakashians Qualified NEET & JEE in 2023" },
+  { img: image3, count: "122,000+", label: "math science classesians Qualified NEET & JEE in 2023" },
   { img: image2, count: "5000+", label: "Expert Faculty" }
 ];
 

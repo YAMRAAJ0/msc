@@ -171,7 +171,7 @@ const verifyOtp = async () => {
               onChange={handleChange}
             />
             <span className="text-sm">
-              By submitting this form, I agree to receive all the WhatsApp communication on my registered number and agreeing to Aakash's <a href="#" className="text-blue-600">Terms Of Use</a> and <a href="#" className="text-blue-600">Privacy Policy</a>
+              By submitting this form, I agree to receive all the WhatsApp communication on my registered number and agreeing to math science classes's <a href="#" className="text-blue-600">Terms Of Use</a> and <a href="#" className="text-blue-600">Privacy Policy</a>
             </span>
           </label>
         </div>
